@@ -1,0 +1,484 @@
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- Importation --------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+@import url("bootstrap.min.css");
+
+@font-face {
+	font-family:'geo';
+	src:url('../fonts/geo.ttf');
+}
+@font-face {
+	font-family:'captain';
+	src:url('../fonts/captain.ttf');
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- GLOBALE CSS --------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+body{
+	background-color: #E9E9E9;
+	overflow-x: hidden;
+	width: 100%;
+}
+span{
+	color:  #e74c3c;
+}
+
+#containerUne, .container{
+margin: 0:;
+padding: 0;
+width: 90%;
+}
+
+/* reset margin Boostrap */
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.col-xs-8{
+	padding: 0;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- CSSHEADER ----------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Parametre du logos */
+.hidden2{		/*Logo PC qui n'apparaît pas */
+	display: none;
+}
+.clear2{		/*Logo mobile qui apparaît (mobile first) */
+	display: block;
+}
+#logo{			/*Logo mobile */
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 5px 0px #656565;	
+}
+#logo2{
+	width: 20%;
+	box-shadow: 2px 2px 5px 0px #656565;
+
+}
+
+/*---------------------------- Nav Parametre MobileFirst -------------------------------*/
+#nav {							/*Le nav global */
+	box-shadow: 2px 2px 5px 0px #656565;
+	background-image:url("../img/bg-naruto.jpg");
+}
+#nav ul{						/*Liste du nav */
+	list-style: none;					
+	background-color: #4D4A4A;
+	padding: 0;
+	margin: 0;
+	font-family: 'geo';
+}
+#nav ul li{						/* Eléments de la liste */
+	font-size: 1.5em;
+	padding: 7px;
+	text-align: right;
+}
+#nav ul li:hover, li:active{				/* Eléments au passage de la souris */	
+	background-color: #e74c3c;
+}	
+#nav ul li a{						/* Liens dans l'élément */
+	text-decoration: none;
+	color: #E9E9E9 ;
+}
+#nav ul li:hover a{					/* Liens au passage de la souris sur l'élément */
+	color: white;
+	text-decoration: none;
+}
+#focusLI{						/* Elément de la page active */
+	background-color: #e74c3c;	
+}
+#focusLI a{						/* Lien de la page active */
+	color: white;
+}
+#carrousel-id{
+		width: 100%;
+	}
+
+#phraseAccroche{ /* ne pas afficher en version mobile la phrase d'accroche */
+	display: none;
+}
+
+.recommend{
+	display: block;
+}
+.clear2{		/*Logo mobile qui apparaît (mobile first) */
+	display: block;
+}
+
+/*------------Nav Parametre DeskopVersion ------------ */
+@media (min-width: 992px) {				/* Version PC */
+
+
+	.span4{
+		padding: 25px;
+	}
+
+.hidden2{
+	margin: 20px;
+}
+	#nav ul{	
+	background-color: #1d2123;
+	padding: 10px;
+	margin: 0;
+	font-family: 'geo';
+	box-shadow: 2px 2px 5px 0px #656565;
+	}
+	#nav ul li{
+		font-size: 1.5em;
+		padding: 13px;
+		text-align: center;
+		border : none;
+		display: inline;				/* Nav en ligne */
+	}
+	#nav ul li:hover, li:active{
+		background-color: #e74c3c;
+	}
+	#nav ul li a{
+		text-decoration: none;
+		color: #E9E9E9 ;
+		font-weight: bolder;
+	}
+	#nav ul li:hover a{
+		color: white;
+		text-decoration: none;
+	}	
+	#logo2{
+		box-shadow: none;
+		width: 13%;
+	}
+	.hidden2{			/* On fait apparaître un logo et disparaître l'autre */
+		display: block;
+	}
+	.clear2{
+		display: none;
+	}
+
+	#kana{    /* affichage de la phrase d'accroche */
+		display: block;
+		margin-top: 10px;
+		margin-left: 338px;
+		width: 30px;
+	}
+	#carrousel-id{
+		width: 100%;
+	}
+	.recommend{
+	display: none;
+}
+	
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- PHRASE ACCROCHE ----------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- CSSCONTENEUR -------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+.aLaUne{
+	border-bottom: 2px solid #e74c3c;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+#conteneur{
+	background-color: #1d2123;
+	margin-left: 150px;
+}
+}
+#containerDeux{
+	width: 50%;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- CSSLA UNE ----------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.les-articles{
+	padding-bottom: 25px; 
+}
+
+.articleimg{
+	margin-left: 240px;
+	width: 100px;
+}
+
+.articleimg1, .articleimg2, .articleimg3, .articleimg4, .articleimg5, .articleimg6, .articleimg7, .articleimg8{
+padding: 0px;
+border: solid 0.01em #E9E9E9;
+}
+
+/*style articles accueil*/
+
+
+.blanc{
+	background-color: white;
+	padding: 2em 2em 2em 2em;;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 10px;
+
+}
+.gap-right {
+    margin-right: 20px; 
+    overflow: wrap;
+    width: 400px;
+}
+figcaption{
+	text-transform: bold;
+	font-weight: bold;
+}
+
+
+
+.indent {
+    text-indent: 20px;
+}
+
+/* fin style articles accueil*/
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- PLUS ENCORE ----------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+#etPlusEncore{
+
+}
+.panel, .panel-default{
+	padding: 1%;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------- PAGE GALERIE FORME ----------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+#myCarousel{
+	margin-top: 20px;
+}
+
+.carousel { 
+  margin: 0 150px;  
+  width: calc(100% - ($button-spacing * 2));
+}
+
+.carousel .carousel-control {
+  background: none;
+  color: transparent;
+  overflow: hidden;
+  text-shadow: none;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  width: 40px;
+}
+
+.carousel .carousel-control.left{ 
+  left: -40px; top: 30px; 
+}
+
+.carousel .carousel-control.right{ 
+  right: -40px; top: 30px; 
+}
+
+.glyphicon-chevron-left{
+	color: black;
+}
+
+.glyphicon-chevron-right{
+	color: black;
+}
+
+h3{
+	background-color: #122136;
+	color: white;
+	box-shadow: 2px 2px 5px 0px black;
+	margin-bottom: -40px;
+}
+
+
+/* Bas de page */
+
+.full {
+    width: 100%;	
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer2 {
+	margin-top: 10px;
+	background: #EDEFF1;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+.footer2 p {
+	margin: 0;
+}
+.footer2 img {
+	max-width: 100%;
+}
+.footer2 .footerh3 {
+	background-color: none;
+	border-bottom: 1px solid #BAC1C8;
+	color: #54697E;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer2 ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+.footer2 ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer2 a {
+	color: #78828D
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+.newsletter-box input#appendedInputButton {
+	background: #FFFFFF;
+	display: inline-block;
+	float: left;
+	height: 30px;
+	clear: both;
+	width: 100%;
+}
+.newsletter-box .btn {
+	border: medium none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	height: 40px;
+	padding: 0;
+	width: 100%;
+	color: #fff;
+}
+.newsletter-box {
+	overflow: hidden;
+}
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+.payments {
+	font-size: 1.5em;	
+}
+
+.social li {
+	background: none repeat scroll 0 0 #B5B5B5;
+	border: 2px solid #B5B5B5;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 8px 0 0;
+	padding: 0;
+	text-align: center;
+	width: 36px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+
+.social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+	color: #EDEFF1;
+}
+.social li:hover {
+	border: 2px solid #2c3e50;
+	background: #2c3e50;
+}
+.social li a i {
+	font-size: 16px;
+	margin: 0 0 0 5px;
+	color: #EDEFF1 !important;
+}
+
+
+
+/*Classes necessaires aux fonctions afficher article et onclick ne pas inverser leur ordre*/
+
+.cache{
+	display: none;
+	
+}
+
+.Afficher {
+	display: inline;
+	
+
+	
+}
+
+
+/*CSS Présentation*/
+blockquote{
+	border-color: #EC9566;
+	min-height: 40px;
+    margin-bottom: 5px;
+    padding: 5px 13px;
+    border-radius: 8px;
+    background-color: white;
+    font-style: italic;
+    text-shadow: 0 1px 0 #ffffde;
+	color: #8e7c70;
+}
+
+
+#styleH2{
+	background-color: #1693A5;
+  	text-align: center;
+  	margin-bottom: 10px;
+  	color:white;
+  	font-size: 23px;
+  	font-family: 'Pacifico', cursive;  
+  	box-shadow: 2px 2px 5px 0px #656565;
+  	line-height: 30px;
+
+}
+
